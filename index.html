@@ -82,5 +82,20 @@
             </li>
         </ul>
     </footer>
+    <form>
+        <label for="courseName">Course Title:</label><br>
+        <input type="text" id="courseName" name="courseName"><br>
+        <label for="Semester">Semester:</label><br>
+        <select id="Semester" name="Semester">
+            <option value="Fall">Fall</option>
+            <option value="Spring">Spring</option>
+        </select><br>
+        <label for="attendanceType"><strong>Attendance:</strong></label><br>
+        <input type="radio" id="virtual" name="attendanceType" value="virtual">
+        <label for="virtual">Virtual attendance</label><br>
+        <input type="radio" id="physical" name="attendanceType" value="physical">
+        <label for="physical">Physical attendance</label><br>
+        <input type="submit" value="Submit">
+    </form>
   </body>
 </html>
